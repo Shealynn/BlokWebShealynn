@@ -40,7 +40,7 @@ Surface plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Dit is de: Homepagina  
-<img src="images/scherm-homepagina.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="basiswebsite/images/scherm-homepagina.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Dit is de: Chartpagina  
