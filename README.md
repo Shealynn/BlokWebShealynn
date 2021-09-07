@@ -44,7 +44,7 @@ Homepagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Chart Pagina 
-<img src="images/screenshot_chartpagina.png" width="375px" alt="chartpagina afbeelding">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="chartpagina afbeelding">
  
 </details>
 
