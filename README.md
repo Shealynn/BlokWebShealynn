@@ -94,10 +94,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet proberen om divjes te vervangen met andere elementen
+- Vooral verder gaan met het coderen
 
 </details>
 

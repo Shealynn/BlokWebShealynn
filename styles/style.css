@@ -4,16 +4,7 @@
   font-size: inherit;
 }
 
-body {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  src: url(../font/akkurat-mono.ttf) format("typeface");
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 1.3em;
-  color: #575657;
-}
-
+/* Dit is de header */
 .header {
   position: fixed;
   top: 2em;
@@ -23,6 +14,7 @@ body {
   background: transparent;
 }
 
+/* Dit is het logo */
 .logo {
   display: flex;
   width: 20%;
@@ -36,12 +28,13 @@ body {
   flex-flow: row;
 }
 
+/*Navigatie linkjes*/
 .nav a {
   text-decoration: none;
   color: #575657;
   font-family: "akkurat-mono";
   font-size: 14px;
-  src: url(../font/akkurat-mono.ttf) format("typeface");
+  src: url("../font/akkurat-mono.ttf") format("typeface");
   text-transform: uppercase;
   vertical-align: baseline;
 }
@@ -51,44 +44,24 @@ body {
   width: 6em;
   background-color: transparent;
   font-family: "akkurat-mono";
-  src: url(../font/akkurat-mono.ttf) format("typeface");
+  src: url("../font/akkurat-mono.ttf") format("typeface");
   color: #575657;
   text-align: center;
   margin-top: 0.5em;
 }
 
-.header-image-mobiel {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+/* Dit is de body */
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.3em;
+  color: #575657;
 }
 
-.sun-in-scorpio {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px 0px;
-  width: 90%;
-}
-
-.ana-banu-ben{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px 0px;
-  width: 100%;
-}
-
-.pluto {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  margin: 30px 0px;
-}
-
-/*h4*/
+/* Dit is de h4 */
 h4 {
   display: block;
   font-size: 11px;
@@ -97,6 +70,7 @@ h4 {
   transform: scaleY(1.1);
   font-style: normal;
   font-weight: 400;
+  text-align: center;
 }
 
 h4+*,
@@ -104,27 +78,89 @@ h1+* {
   margin-top: 30px;
 }
 
+/* dit is de h1 */
 h1 {
   display: block;
+  margin: 30px 0px 10px 0px;
   font-size: 40px;
   font-weight: normal;
   font-family: "romana";
-  src: url(../font/romana.ttf) format("typeface");
+  src: url("../font/romana.ttf") format("typeface");
 }
 
+/* Dit is de h2 */
+h2 {
+  display: block;
+  margin-block-start: 20px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 23px;
+  text-align: center;
+  font-family: "akkurat-mono";
+  font-size: 14px;
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin: 20px 0px 30px 0px;
+}
+
+/* Dit is de h3 */
+h3 {
+  display: block;
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+  line-height: 1em;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "romana";
+  src: url("../font/romana.ttf") format("typeface");
+}
+
+/* Dit is de h5 */
+h5 {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 1px;
+  transform: scaleY(1.1);
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px 0px;
+  font-family: "akkurat-mono";
+  font-size: 14px;
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+}
+
+/* Dit is de h6. Deze staat op de learn pagina */
+h6{
+  display: block;
+  margin: 30px 0px;
+  font-size: 25px;
+  transform: scaleY(1.1);
+  line-height: 29px;
+  font-weight: lighter;
+  font-family: "romana";
+  src: url("../font/romana.ttf") format("typeface");
+}
+
+/* Dit is de kleur voor de linkjes bij de footer */
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+/* Dit is het lettertype voor de span */
+span {
+  font-family: "akkurat-mono";
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+}
+
+/* Dit is de button voor op de homepagina */
 .button {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-main>section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 20px;
-  text-align: center;
 }
 
 /* BUTTON RESET BRON: https://gist.github.com/MoOx/9137295 */
@@ -149,7 +185,7 @@ main>section {
 
   font-family: "akkurat-mono";
   font-size: 12px;
-  src: url(../font/akkurat-mono.ttf) format("typeface");
+  src: url("../font/akkurat-mono.ttf") format("typeface");
   text-transform: uppercase;
 }
 
@@ -160,28 +196,33 @@ main>section {
 
 .btn--secondary {
   background-color: #fbfbfb;
-  color: #252525;
+  color: #575657;
 }
 
-
-h2 {
-  display: block;
-  margin-block-start: 20px;
-  margin-block-end: 10px;
-  margin-inline-start: 0px;
-  margin-inline-end: 23px;
-  text-align: center;
-  font-family: "akkurat-mono";
-  font-size: 14px;
-  src: url(../font/akkurat-mono.ttf) format("typeface");
-  text-transform: uppercase;
-  font-weight: lighter;
-  margin: 20px 0px 30px 0px;
-}
-
-
+/* Dit is om de main een goede border te geven */
 main {
-  padding: 80px 0px 90px 0px;
+  padding: 80px 0px 20px 0px;
+}
+
+main>section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Dit is voor de zwarte containers op de homepagina */
+#donker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #141414;
+  color: #fbfbfb;
+  padding: 60px 30px 90px 30px;
 }
 
 .inner-container {
@@ -194,6 +235,46 @@ main {
 
 }
 
+/* Dit is de telefoon op de homepagina */
+.header-image-mobiel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* Dit zijn de kleine afbeeldingen op de homepagina */
+.home-afbeeldingen {
+  width: 100px;
+  height: auto;
+  padding: 25px 0px;
+}
+
+.sun-in-scorpio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0px;
+  width: 90%;
+}
+
+.ana-banu-ben {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.pluto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin: 30px 0px;
+}
+
+/* Dit is de tekst van de donkere container op de homepagina */
 .what-is-this {
   display: flex;
   flex-direction: column;
@@ -215,37 +296,87 @@ main {
   align-items: flex-end;
 }
 
-.home-afbeeldingen {
-  width: 100px;
-  height: auto;
-  padding: 25px 0px;
-}
-
-
-#donker-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #141414;
-  color: #fbfbfb;
-  padding: 60px 30px 90px 30px;
-}
-
-h3 {
-  display: block;
-  text-align: left;
-  margin: 0px 0px 20px 0px;
-  line-height: 1em;
-  font-size: 40px;
-  font-weight: normal;
-  font-family: "romana";
-  src: url(../font/romana.ttf) format("typeface");
-}
-
-#third-section{
+/* Zet hier nog wat bij */
+#third-section {
   text-align: left;
   margin: 0px 0px 30px 0;
+}
+
+/* formulier op de homepagina */
+.email-form.black input:not([type=submit]) {
+  border-bottom: 1px dashed #fbfbfb;
+  background-color: inherit !important;
+  color: #fbfbfb;
+}
+
+.email-form input:not([type=checkbox]):not(.btn),
+.email-form textarea {
+  height: 21px;
+  padding: 0;
+  margin-top: 4px;
+  border: none;
+  border-bottom: 1px dashed #d6d6d6;
+  background-color: #fbfbfb;
+  color: grey;
+  border-radius: 0;
+  -webkit-appearance: none;
+  font-family: "akkurat-mono";
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Dit is de app store en google play store button op de homepagina */
+.store-button {
+  width: 35%;
+  margin: 30px 20px;
+  display: inline-block;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+/* Dit is de voor de linkjes in de footer */
+.footer-links {
+  font-size: 13px;
+  color: #4f4f4f;
+  font-family: "akkurat-mono";
+  src: url("../font/akkurat-mono.ttf") format("typeface");
+  text-align: center;
+  margin: 30px 0px 40px 0px;
+}
+
+/* Vanaf hier staat de tweede pagina  */
+
+/* Dit zijn de sterrenbeelden */
+.zodiac-signs{
+  background: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  position: relative;
+  margin: 30px 20px 0px 20px;
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.zodiac-sign-image{
+  float: right;
+  clear: right;
+  width: 80px;
+  margin: -5px -5px 0px 20px;
+}
+
+.sign-title{
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #575657;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: "romana_becker_lightregular";
+  src: url("../font/romana.ttf") format("woff2");
+}
+
+.sign-dates{
+  font-size: 14px;
+  font-family: "akkurat-mono";
+  src: url("../font/akkurat-mono.ttf") format("typeface");
 }
