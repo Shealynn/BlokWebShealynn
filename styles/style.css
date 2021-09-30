@@ -4,6 +4,11 @@
   font-size: inherit;
 }
 
+@font-face {
+  font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
+}
+
 /* Dit is de header */
 .header {
   position: fixed;
@@ -32,9 +37,8 @@
 .nav a {
   text-decoration: none;
   color: #575657;
-  font-family: "akkurat-mono";
+  font-family: "Akkurat";
   font-size: 14px;
-  src: url("../font/akkurat-mono.ttf") format("typeface");
   text-transform: uppercase;
   vertical-align: baseline;
 }
@@ -43,22 +47,27 @@
 .nav li {
   width: 6em;
   background-color: transparent;
-  font-family: "akkurat-mono";
-  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-family: "Akkurat";
   color: #575657;
   text-align: center;
   margin-top: 0.5em;
 }
 
+
+
+
+
+
+
 /* Dit is de body */
 body {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  src: url("../font/akkurat-mono.ttf") format("typeface");
   font-weight: 300;
   letter-spacing: 0;
   line-height: 1.3em;
   color: #575657;
+  
 }
 
 /* Dit is de h4 */
@@ -96,9 +105,8 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 23px;
   text-align: center;
-  font-family: "akkurat-mono";
+  font-family: "Akkurat";
   font-size: 14px;
-  src: url("../font/akkurat-mono.ttf") format("typeface");
   text-transform: uppercase;
   font-weight: lighter;
   margin: 20px 0px 30px 0px;
@@ -126,13 +134,12 @@ h5 {
   font-weight: 400;
   text-align: center;
   margin: 30px 0px;
-  font-family: "akkurat-mono";
+  font-family: "Akkurat";
   font-size: 14px;
-  src: url("../font/akkurat-mono.ttf") format("typeface");
 }
 
 /* Dit is de h6. Deze staat op de learn pagina */
-h6{
+h6 {
   display: block;
   margin: 30px 0px;
   font-size: 25px;
@@ -151,8 +158,7 @@ a {
 
 /* Dit is het lettertype voor de span */
 span {
-  font-family: "akkurat-mono";
-  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-family: "Akkurat";
 }
 
 /* Dit is de button voor op de homepagina */
@@ -183,9 +189,8 @@ span {
 
   -webkit-appearance: none;
 
-  font-family: "akkurat-mono";
+  font-family: "Akkurat";
   font-size: 12px;
-  src: url("../font/akkurat-mono.ttf") format("typeface");
   text-transform: uppercase;
 }
 
@@ -320,8 +325,7 @@ main>section {
   color: grey;
   border-radius: 0;
   -webkit-appearance: none;
-  font-family: "akkurat-mono";
-  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-family: "Akkurat";
   font-size: 16px;
   text-align: center;
 }
@@ -339,8 +343,7 @@ main>section {
 .footer-links {
   font-size: 13px;
   color: #4f4f4f;
-  font-family: "akkurat-mono";
-  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-family: "Akkurat";
   text-align: center;
   margin: 30px 0px 40px 0px;
 }
@@ -348,7 +351,7 @@ main>section {
 /* Vanaf hier staat de tweede pagina  */
 
 /* Dit zijn de sterrenbeelden */
-.zodiac-signs{
+.zodiac-signs {
   border: 1px solid #d6d6d6;
   box-sizing: border-box;
   position: relative;
@@ -358,14 +361,14 @@ main>section {
   text-align: left;
 }
 
-.zodiac-sign-image{
+.zodiac-sign-image {
   float: right;
   clear: right;
   width: 80px;
   margin: -5px -5px 0px 20px;
 }
 
-.sign-title{
+.sign-title {
   display: inline-block;
   padding-bottom: 10px;
   color: #575657;
@@ -375,15 +378,16 @@ main>section {
   src: url("../font/romana.ttf") format("woff2");
 }
 
-.sign-dates{
+.sign-dates {
   font-size: 14px;
-  font-family: "akkurat-mono";
-  src: url("../font/akkurat-mono.ttf") format("typeface");
+  font-family: "Akkurat";
 }
 
 /* Dit is de devider bloem */
-.devider{
+.devider {
   width: 120px;
   margin: 80px 0px;
   align-items: center;
 }
+
+
