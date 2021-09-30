@@ -23,7 +23,6 @@ Blauw
 
 #### Je focus:
 Surface plane
- 
 </details>
 
 
@@ -43,8 +42,8 @@ Dit is de: Homepagina
 <img src="images/scherm-homepagina.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Dit is de: Chartpagina  
-<img src="images/scherm-chartpagina.png" width="375px" alt="omschrijving van de pagina">
+Dit is de: Learn pagina  
+<img src="images/learn-pagina.png" width="375px" alt="Learn pagina">
  
 </details>
 
@@ -78,7 +77,7 @@ Dit is de: Chartpagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had nog niet ontzettend veel gemaakt, maar de richting waar ik op wilde gaan, vonden de studentenassistenten goed om verder mee te gaan.
 
 
 ### Agenda voor meeting
@@ -92,11 +91,8 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
 - Ik moet proberen om divjes te vervangen met andere elementen
 - Vooral verder gaan met het coderen
-
 </details>
 
 
@@ -109,7 +105,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn pagina's zagen er goed uit en ik moest vooral gewoon verder gaan met coderen. 
 
 
 ### Agenda voor meeting
@@ -125,11 +121,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- Gewoon verder gaan met coderen
+- Ik moet proberen om mijn pagina nog wat extra te geven voor de oplevering.
 </details>
 
 
