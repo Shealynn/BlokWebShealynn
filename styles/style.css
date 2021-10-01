@@ -12,8 +12,8 @@
 /* Dit is de header */
 .header {
   position: fixed;
-  top: 2em;
-  right: 0.7em;
+  top: 32px;
+  right: 11px;
   width: 100%;
   z-index: 10;
   background: transparent;
@@ -45,12 +45,12 @@
 
 /*Navigatie button kleuren*/
 .nav li {
-  width: 6em;
+  width: 96px;
   background-color: transparent;
   font-family: 'Akkurat';
   color: #575657;
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 8px;
 }
 
 /* Dit is de body */
@@ -59,9 +59,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   letter-spacing: 0;
-  line-height: 1.3em;
+  line-height: 21px;
   color: #575657;
-  
 }
 
 /* Dit is de h4 */
@@ -111,7 +110,7 @@ h3 {
   display: block;
   text-align: left;
   margin: 0px 0px 20px 0px;
-  line-height: 1em;
+  line-height: 35px;
   font-size: 40px;
   font-weight: normal;
   font-family: "romana";
@@ -232,7 +231,7 @@ main>section {
   font-size: 14px;
   color: #fbfbfb;
   text-align: left;
-  line-height: 1.5em;
+  line-height: 24px;
 
 }
 
@@ -344,7 +343,7 @@ main>section {
   color: #4f4f4f;
   font-family: 'Akkurat';
   text-align: center;
-  margin: 30px 0px 40px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 /* Vanaf hier staat de tweede pagina  */
