@@ -53,12 +53,6 @@
   margin-top: 0.5em;
 }
 
-
-
-
-
-
-
 /* Dit is de body */
 body {
   font-size: 14px;
@@ -106,6 +100,7 @@ h2 {
   margin-inline-end: 23px;
   text-align: center;
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
   font-size: 14px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -135,6 +130,7 @@ h5 {
   text-align: center;
   margin: 30px 0px;
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
   font-size: 14px;
 }
 
@@ -159,6 +155,7 @@ a {
 /* Dit is het lettertype voor de span */
 span {
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
 }
 
 /* Dit is de button voor op de homepagina */
@@ -190,6 +187,7 @@ span {
   -webkit-appearance: none;
 
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -202,6 +200,12 @@ span {
 .btn--secondary {
   background-color: #fbfbfb;
   color: #575657;
+}
+
+.btn--third {
+  background-color: #fbfbfb;
+  color: #575657;
+  margin: 30px 65px;
 }
 
 /* Dit is om de main een goede border te geven */
@@ -326,6 +330,7 @@ main>section {
   border-radius: 0;
   -webkit-appearance: none;
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
   font-size: 16px;
   text-align: center;
 }
@@ -333,10 +338,13 @@ main>section {
 /* Dit is de app store en google play store button op de homepagina */
 .store-button {
   width: 35%;
-  margin: 30px 20px;
+  margin: 20px 20px;
   display: inline-block;
   flex-direction: column;
   vertical-align: middle;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 /* Dit is de voor de linkjes in de footer */
@@ -344,6 +352,7 @@ main>section {
   font-size: 13px;
   color: #4f4f4f;
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
   text-align: center;
   margin: 30px 0px 40px 0px;
 }
@@ -381,6 +390,7 @@ main>section {
 .sign-dates {
   font-size: 14px;
   font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
 }
 
 /* Dit is de devider bloem */
@@ -390,4 +400,21 @@ main>section {
   align-items: center;
 }
 
+.marquee {
+  display: inline-block;
+  height: 25px;
+  padding-top: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  margin: 0px 0px 10px 0px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
 
+h7{
+  font-family: "Akkurat";
+  src: url("/font/Akkurat-Mono.woff") format("woff");
+  margin: 0px 20px 0px 0px;
+}
