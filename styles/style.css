@@ -118,6 +118,15 @@ h3 {
   src: url("../font/romana.ttf") format("typeface");
 }
 
+/* Dit is de h5 */
+h5 {
+  font-family: 'Akkurat';
+  margin: 0px 30px 0px 0px;
+  font-weight: lighter;
+  display: inline-block;
+  width: 55%;
+}
+
 /* Dit is de h6. Deze staat op de learn pagina */
 h6 {
   display: block;
@@ -151,7 +160,7 @@ span {
 
 /* BUTTON RESET BRON: https://gist.github.com/MoOx/9137295 */
 .btn {
-  display: block;
+  display: grid;
   width: 50%;
 
   border: none;
@@ -188,6 +197,7 @@ span {
   background-color: #fbfbfb;
   color: #575657;
   margin: 30px 65px;
+  justify-content: center;
 }
 
 /* Dit is om de main een goede border te geven */
@@ -390,11 +400,4 @@ main>section {
   margin: 0px 0px 10px 0px;
   text-transform: uppercase;
   justify-content: space-between;
-}
-
-h5 {
-  font-family: 'Akkurat';
-  margin: 0px 30px 0px 0px;
-  display: inline-block;
-  width: 55%;
 }
