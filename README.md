@@ -137,18 +137,28 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Voiceover
-De voice over werkte goed.
+#### Titel eerste bevinding
+Hier korte omschrijving (met indien nodig een afbeelding)
 
-Ik heb de voiceover ingeschakeld en het werkte naar toebehoren. 
+Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Zicht
-De pagina's zijn opgemaakt in het zwart/wit en een beetje grijs. De pagina's bevatten dan niet echt kleur. Vandaar dat het wel makkelijk is om te bekijken voor mensen die bijvoorbeeld de kleuren niet goed kunnen zien.
+#### Titel tweede bevinding. 
+Hier korte omschrijving (met indien nodig een afbeelding)
 
- 
-#### Beperking aan de hand. 
-Je kon de pagina opzicht wel goed navigeren, omdat het meeste vooral gecentreerd staat en je eigenlijk alleen hoeft te scrollen. Het enigste dat misschien wel lastig zou kunnen worden is het invullen van je email etc.
+Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+
+#### Titel volgende bevinding. 
+Hier korte omschrijving (met indien nodig een afbeelding)
+
+Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+
+#### Titel nog een bevinding. 
+Hier korte omschrijving (met indien nodig een afbeelding)
+
+Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -162,7 +172,7 @@ Je kon de pagina opzicht wel goed navigeren, omdat het meeste vooral gecentreerd
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Mijn website en de code ziet er goed uit. Het is bijna klaar om in te leveren en ik hoef alleen nog maar de puntjes op de I te zetten.
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
 ### Agenda voor meeting
@@ -176,9 +186,12 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-Ik zou de divjes nog kunnen vervangen met wat anders. Ik weet zelf alleen niet precies wat ik daarvoor in de plaats zou kunnen zetten.
+hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Divjes
+- punt 1
+- punt 2
+- nog een punt
+- ...
 
 </details>
 
