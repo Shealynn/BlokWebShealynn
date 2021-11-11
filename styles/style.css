@@ -5,12 +5,12 @@
 }
 
 @font-face {
-  font-family: 'Akkurat';
-  src: url("https://shealynn.github.io/BlokWebShealynn/font/Akkurat-Mono.woff") format('woff');
+  font-family: "Akkurat";
+  src: url("https://shealynn.github.io/BlokWebShealynn/font/Akkurat-Mono.woff") format("woff");
 }
 
 /* Dit is de header */
-#header {
+.header {
   position: fixed;
   top: 32px;
   right: 11px;
@@ -20,10 +20,10 @@
 }
 
 /* Dit is het logo */
-#logo {
+.logo {
   display: flex;
   width: 20%;
-  margin: 5px 30px;
+  margin: 5px 10px 0px 30px;
 }
 
 /*Navigatie*/
@@ -37,7 +37,7 @@
 .nav a {
   text-decoration: none;
   color: #575657;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   font-size: 14px;
   text-transform: uppercase;
   vertical-align: baseline;
@@ -45,13 +45,24 @@
 
 /*Navigatie button kleuren*/
 .nav li {
-  width: 96px;
+  width: 65px;
   background-color: transparent;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   color: #575657;
   text-align: center;
   margin-top: 8px;
 }
+
+/* :root {
+background-color: white;
+}
+
+.dark-mode{
+background-color: black;
+color: white;
+}
+
+ */
 
 /* Dit is de body */
 body {
@@ -61,6 +72,7 @@ body {
   letter-spacing: 0;
   line-height: 21px;
   color: #575657;
+  background-color: transparent;
 }
 
 /* Dit is de h4 */
@@ -73,17 +85,18 @@ h4 {
   font-style: normal;
   font-weight: 400;
   text-align: center;
+  margin: 20px 0px;
 }
 
 h4+*,
 h1+* {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /* dit is de h1 */
 h1 {
   display: block;
-  margin: 30px 0px 10px 0px;
+  margin: 30px 0px 30px 0px;
   font-size: 40px;
   font-weight: normal;
   font-family: "romana";
@@ -98,7 +111,7 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 23px;
   text-align: center;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   font-size: 14px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -119,7 +132,7 @@ h3 {
 
 /* Dit is de h5 */
 h5 {
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   margin: 0px 30px 0px 0px;
   font-weight: lighter;
   display: inline-block;
@@ -129,7 +142,7 @@ h5 {
 /* Dit is de h6. Deze staat op de learn pagina */
 h6 {
   display: block;
-  margin: 30px 0px;
+  margin: 0px 0px;
   font-size: 25px;
   transform: scaleY(1.1);
   line-height: 29px;
@@ -146,7 +159,7 @@ a {
 
 /* Dit is het lettertype voor de span */
 span {
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
 }
 
 /* Dit is de button voor op de homepagina */
@@ -177,14 +190,14 @@ span {
 
   -webkit-appearance: none;
 
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   font-size: 12px;
   text-transform: uppercase;
 }
 
 .btn+.btn {
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .btn--secondary {
@@ -213,7 +226,7 @@ main>section {
 }
 
 /* Dit is voor de zwarte containers op de homepagina */
-#donker-container {
+.donker-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,11 +245,10 @@ main>section {
   color: #fbfbfb;
   text-align: left;
   line-height: 24px;
-
 }
 
 /* Dit is de telefoon op de homepagina */
-#header-image-mobiel {
+.header-image-mobiel {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -244,13 +256,13 @@ main>section {
 }
 
 /* Dit zijn de kleine afbeeldingen op de homepagina */
-#home-afbeeldingen {
+.home-afbeeldingen {
   width: 100px;
   height: auto;
   padding: 25px 0px;
 }
 
-#sun-in-scorpio {
+.sun-in-scorpio {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -258,7 +270,7 @@ main>section {
   width: 90%;
 }
 
-#ana-banu-ben {
+.ana-banu-ben {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -266,7 +278,7 @@ main>section {
   width: 100%;
 }
 
-#pluto {
+.pluto {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -296,20 +308,19 @@ main>section {
   align-items: flex-end;
 }
 
-/* Zet hier nog wat bij */
 #third-section {
   text-align: left;
   margin: 0px 0px 30px 0;
 }
 
 /* formulier op de homepagina */
-.email-form.black input:not([type=submit]) {
+.email-form.black input:not([type="submit"]) {
   border-bottom: 1px dashed #fbfbfb;
   background-color: inherit !important;
   color: #fbfbfb;
 }
 
-.email-form input:not([type=checkbox]):not(.btn),
+.email-form input:not([type="checkbox"]):not(.btn),
 .email-form textarea {
   height: 21px;
   padding: 0;
@@ -320,13 +331,13 @@ main>section {
   color: grey;
   border-radius: 0;
   -webkit-appearance: none;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   font-size: 16px;
   text-align: center;
 }
 
 /* Dit is de app store en google play store button op de homepagina */
-#store-button {
+.store-button {
   width: 35%;
   margin: 20px 20px;
   display: inline-block;
@@ -334,14 +345,13 @@ main>section {
   vertical-align: middle;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 /* Dit is de voor de linkjes in de footer */
-#footer-links {
+.footer-links {
   font-size: 13px;
   color: #4f4f4f;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
   text-align: center;
   margin: 30px 0px 30px 0px;
 }
@@ -349,7 +359,7 @@ main>section {
 /* Vanaf hier staat de tweede pagina  */
 
 /* Dit zijn de sterrenbeelden */
-#zodiac-signs {
+.zodiac-signs {
   border: 1px solid #d6d6d6;
   box-sizing: border-box;
   position: relative;
@@ -359,14 +369,14 @@ main>section {
   text-align: left;
 }
 
-#zodiac-sign-image {
+.zodiac-sign-image {
   float: right;
   clear: right;
   width: 80px;
   margin: -5px -5px 0px 20px;
 }
 
-#sign-title {
+.sign-title {
   display: inline-block;
   padding-bottom: 10px;
   color: #575657;
@@ -376,19 +386,19 @@ main>section {
   src: url("../font/romana.ttf") format("woff2");
 }
 
-#sign-dates {
+.sign-dates {
   font-size: 14px;
-  font-family: 'Akkurat';
+  font-family: "Akkurat";
 }
 
 /* Dit is de devider bloem */
-#devider {
+.devider {
   width: 120px;
   margin: 80px 0px;
   align-items: center;
 }
 
-#marquee {
+.marquee {
   display: inline-block;
   height: 25px;
   padding-top: 10px;
@@ -397,6 +407,66 @@ main>section {
   position: relative;
   background-color: transparent;
   margin: 0px 0px 10px 0px;
-  text-transform: uppercase;
   justify-content: space-between;
 }
+
+/* Dit is om het formulier te stijlen */
+.input {
+  border: transparent;
+  border-bottom: 1px dashed #fbfbfb;
+  background-color: inherit;
+  color: #fbfbfb;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Dit is om de placeholder tekstkleur te veranderen */
+::placeholder {
+  color: #fbfbfb;
+}
+
+/* Vanaf hier begint de kleur-mode */
+
+.kleur-mode {
+  background-color: #f6f7f1;
+}
+
+.kleur-mode h1 {
+  color: #ffaa67;
+}
+
+.kleur-mode .donker-container {
+  background-color: #80a786;
+}
+
+.kleur-mode .inner-container {
+  background-color: #80a786;
+}
+
+.kleur-mode .marquee {
+  color: #ffaa67;
+}
+
+.kleur-mode a {
+  color: #ffaa67;
+}
+
+.kleur-mode nav a {
+  color: #39998e;
+}
+
+.kleur-mode .btn {
+  border-color: #39998e;
+  background-color: #39998e;
+}
+
+.kleur-mode h3 {
+  color: #ffaa67;
+}
+
+#kleurmodebutton {
+  width: 50%;
+  margin-top: -5px;
+}
+/* https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */

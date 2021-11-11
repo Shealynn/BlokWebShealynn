@@ -13,10 +13,10 @@
 </head>
 
 <body>
-  <section id="header">
+  <header class="header">
     <nav>
       <ul class="nav">
-        <img id="logo" src="images/logo_.png" alt="co-star logo" />
+        <img class="logo" src="images/logo_.png" alt="co-star logo" a href="index.html" />
         <li>
           <a href="https://apps.apple.com/us/app/co-star/id1264782561">IOS</a>
         </li>
@@ -24,13 +24,18 @@
           <a
             href="https://play.google.com/store/apps/details?id=com.costarastrology&utm_source=costarwebsite">Android</a>
         </li>
-        <li><a href="natalchart.html">Chart</a></li>
         <li>
-          <a href="natalchart.html">Learn</a>
+          <a href="index.html">Chart</a>
+        </li>
+        <li>
+          <a href="index.html">Learn</a>
+        </li>
+        <li id="kleur-mode">
+          <img id="kleurmodebutton" src="images/moon_small.png" alt="kleine maan">
         </li>
       </ul>
     </nav>
-  </section>
+  </header>
 
   <main>
     <section>
@@ -55,17 +60,14 @@
       </a>
     </section>
 
+    <img class="header-image-mobiel" src="images/mobielimage_gif.gif" alt="Header mobiel" />
 
-    <section>
-      <img id="header-image-mobiel" src="images/mobielimage_gif.gif" alt="Header mobiel" />
-    </section>
-
-    <section id="donker-container">
+    <section class="donker-container">
       <div class="inner-container">
         <h2>WHAT IS THIS</h2>
 
         <div class="what-is-this">
-          <img id="home-afbeeldingen" src="images/maan_homepagina.png" alt="Maan homepagina" />
+          <img class="home-afbeeldingen" src="images/maan_homepagina.png" alt="Maan homepagina" />
 
           <p>
             Access to astrology this accurate has historically been restricted
@@ -75,7 +77,7 @@
         </div>
 
         <div class="what-is-this">
-          <img id="home-afbeeldingen" src="images/hand.png" alt="hand homepagina" />
+          <img class="home-afbeeldingen" src="images/hand.png" alt="hand homepagina" />
 
           <p>
             Our powerful natural-language engine uses NASA data, coupled with
@@ -85,7 +87,7 @@
         </div>
 
         <div class="what-is-this">
-          <img id="home-afbeeldingen" src="images/schedel.png" alt="schedel homepagina" />
+          <img class="home-afbeeldingen" src="images/schedel.png" alt="schedel homepagina" />
 
           <p>
             Astrology puts our temporary bodies in context with our universe's
@@ -97,7 +99,7 @@
     </section>
 
     <section id="third-section">
-      <img id="sun-in-scorpio" src="images/sun_in_scorpio.PNG" alt="Sun in scorpio" />
+      <img class="sun-in-scorpio" src="images/sun_in_scorpio.PNG" alt="Sun in scorpio" />
       <h3>Hyper-personalized astrology</h3>
       <p>
         Unlike the broad and vague horoscopes you usually read in magazines,
@@ -106,7 +108,7 @@
         hyper-personalized horoscopes.
       </p>
 
-      <img id="ana-banu-ben" src="images/ana_banu_ben.PNG" alt="Ana banu ben" />
+      <img class="ana-banu-ben" src="images/ana_banu_ben.PNG" alt="Ana banu ben" />
       <h3>Better together</h3>
       <p>
         Keep track of your friends, see what's up with them astrologically if
@@ -114,7 +116,7 @@
         fall in love.
       </p>
 
-      <img id="pluto" src="images/pluto.PNG" alt="Pluto homepagina" />
+      <img class="pluto" src="images/pluto.PNG" alt="Pluto homepagina" />
       <h3>Real-time insights, as the planets move</h3>
       <p>
         We use NASA data to know exactly where the stars are, and proprietary
@@ -124,58 +126,68 @@
     </section>
 
     <section>
-
-      <section id="donker-container">
+      <div class="donker-container">
         <div class="inner-container">
-          <h4>Looking 4 a sign? Cast ur chart & get ur horoscope by email ></h4>
+          <h4>
+            Looking 4 a sign? Cast ur chart & get ur horoscope by email >
+          </h4>
         </div>
 
-        <div class="email-form black">
-          <form name="emailForm" novalidate="">
-            <h2>I was born in&nbsp;</h2>
-            <div class="input-group"><input required="" type="text" placeholder="a city" name="place" id="place"
-                value="">
-              <ul class="hidden"></ul>
-            </div><span>&nbsp;on&nbsp;</span><input required="" type="date" placeholder="yyyy-mm-dd"
-              pattern="\d\d\d\d-\d\d-\d\d" min="1500-01-01" max="2500-12-31" name="date"
-              value=""><span>&nbsp;at&nbsp;</span><input type="time" placeholder="hh:mm AM"
-              pattern="(\d?\d):(\d\d)( (AM|PM|am|pm))?" name="time" id="birthTime" value="">.&nbsp;<span> My email
-              is&nbsp;</span><input type="email" required="" placeholder="email address" name="email"
-              value=""><span>.</span>
-
-            <a class="btn btn--third" href="natalchart.html">
-              GET UR Chart
-            </a>
-          </form>
+        <!-- Bron: https://www.w3schools.com/tags/att_input_type_date.asp -->
+        <div class="formulier">
+          <form name="emailFormulier">
+            <h2>I was born in</h2>
+            <div class="gegevens">
+              <label>
+                <input type="text" class="input" name="plaats" placeholder="a city" />
+              </label>
+              <span>at</span>
+              <label>
+                <input type="date" class="input" name="datum" />
+              </label>
+              <span>on</span>
+              <label>
+                <input type="time" class="input" name="tijd" />
+              </label>
+              <span>. My email is</span>
+              <label>
+                <input type="email" class="input" name="email" placeholder="email address" />
+              </label>
+            </div>
           </form>
         </div>
-        </div>
-      </section>
+        <a class="btn btn--third" href="natalchart.html">GET UR Chart</a>
+      </div>
     </section>
-  </main>
 
+    <audio src="images/sparkle.wav" id="fairy"></audio>
+
+  </main>
 
   <footer>
     <!-- bron: https://way2tutorial.com/html/marquee_generator.php -->
-    <marquee id="marquee" direction="left" behavior="scroll" scrollamount="14" loop="infinite">
-      <h5>Download co-star today</h5>
-      <h5>Download co-star today</h5>
-      <h5>Download co-star today</h5>
-      <h5>Download co-star today</h5>
-      <h5>Download co-star today</h5>
+    <marquee class="marquee" direction="left" behavior="scroll" scrollamount="14" loop="infinite">
+      <h5>DOWNLOAD CO-STAR TODAY</h5>
+      <h5>DOWNLOAD CO-STAR TODAY</h5>
+      <h5>DOWNLOAD CO-STAR TODAY</h5>
+      <h5>DOWNLOAD CO-STAR TODAY</h5>
+      <h5>DOWNLOAD CO-STAR TODAY</h5>
     </marquee>
 
     <a href="https://itunes.apple.com/us/app/co-star/id1264782561?pt=118755375&amp;ct=site-marketing&amp;mt=8">
-      <img id="store-button" src="images/app_store_button.png" alt="Apple store"></a>
+      <img class="store-button" src="images/app_store_button.png" alt="Apple store" /></a>
 
     <a href="https://itunes.apple.com/us/app/co-star/id1264782561?pt=118755375&amp;ct=site-marketing&amp;mt=8">
-      <img id="store-button" src="images/google_play_button.png" alt="Google play"></a>
+      <img class="store-button" src="images/google_play_button.png" alt="Google play" /></a>
 
-    <section id="footer-links"><a href="/index.html">Android</a> — <a
-        href="https://itunes.apple.com/us/app/co-star/id1264782561?pt=118755375&amp;ct=site-marketing&amp;mt=8">iOS</a>
-      — <a href="/index.html">Natal Chart</a><br><a href="/index.html">Jobs</a> — <a href="/index.html">Team</a> — <a
-        href="/index.html">Haskell</a><br><a href="/index.html">FAQ</a> — <a href="/index.html">About</a> — <a
-        href="/index.html">Contact</a> — <a href="/index.html">Privacy</a></section>
+    <div class="footer-links">
+      <a href="/index.html">Android</a> —
+      <a href="https://itunes.apple.com/us/app/co-star/id1264782561?pt=118755375&amp;ct=site-marketing&amp;mt=8">iOS</a>
+      — <a href="/index.html">Natal Chart</a><br /><a href="/index.html">Jobs</a>
+      — <a href="/index.html">Team</a> — <a href="/index.html">Haskell</a><br /><a href="/index.html">FAQ</a> — <a
+        href="/index.html">About</a> —
+      <a href="/index.html">Contact</a> — <a href="/index.html">Privacy</a>
+    </div>
   </footer>
   <script src="scripts/script.js"></script>
 </body>
