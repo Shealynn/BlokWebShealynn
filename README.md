@@ -41,9 +41,13 @@ Surface plane
 Dit is de: Homepagina  
 <img src="images/scherm-homepagina.jpg" width="375px" alt="omschrijving van de pagina">
 
+<img src="images/scherm-homepagina2.PNG" width="375px" alt="omschrijving van de pagina">
+
 #### Screenshot(s) van de tweede pagina (small screen):
 Dit is de: Learn pagina  
 <img src="images/learn-pagina.png" width="375px" alt="Learn pagina">
+
+<img src="images/IMG_5261.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
