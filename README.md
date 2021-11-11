@@ -80,20 +80,12 @@ Dit is de: Learn pagina
 ### Stand van zaken
 Ik had nog niet ontzettend veel gemaakt, maar de richting waar ik op wilde gaan, vonden de studentenassistenten goed om verder mee te gaan.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 - Ik moet proberen om divjes te vervangen met andere elementen
 - Vooral verder gaan met het coderen
+
+<img src="images/feedback_4.png" width="375px" alt="feedback deel 4">
+
 </details>
 
 
@@ -127,8 +119,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
+
+
 #### Screen reader
 Door de website gaan met spraak ging goed! de buttons en linkjes waren allemaal goed geplaatst en ik kon er makkelijk doorheen gaan. 
+
+<img src="images/test_01.png" width="375px" alt="test 1">
 
 
 #### Besturen
@@ -137,6 +133,8 @@ De website besturen met shock vond ik best wel lastig, maar het was wel bestuurb
 
 #### Kleur mode (zicht)
 Ik heb ervoor gekozen om dark mode niet te gebruiken, omdat de pagina zelf al in het zwart/wit is. Ik heb de pagina nu gemaakt in kleur, zodat het voor gebruikers ook wel prettig kan zijn om wat kleur te zien voor wanneer zij op de pagina ziten.
+
+<img src="images/test_2.png" width="375px" alt="test 2">
 
 </details>
 
