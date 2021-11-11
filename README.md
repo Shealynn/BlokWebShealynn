@@ -41,13 +41,10 @@ Surface plane
 Dit is de: Homepagina  
 <img src="images/scherm-homepagina.jpg" width="375px" alt="omschrijving van de pagina">
 
-<img src="images/scherm-homepagina2.PNG" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Dit is de: Learn pagina  
 <img src="images/learn-pagina.png" width="375px" alt="Learn pagina">
-
-<img src="images/IMG_5261.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -209,11 +206,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond zelf dat het best goed ging. Ik vind coderen zelf af en toe nog wel heel lastig, maar doordat ik helemaal zelf kon kiezen welke website ik ging maken, vond ik het ook wel leuk om te doen. 
+
+Ik vond het nog wel lastig om met JavaScript te werken, maar doordat ik iets meer ging oefenen is het wel gelukt om er mee te werken. 
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+
+<img src="images/feedback_2.jpg" width="375px" alt="feedback deel 2">
+
+<img src="images/feedback_3.jpg" width="375px" alt="feedback deel 3">
+
 
 </details>
 
@@ -228,8 +232,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://way2tutorial.com/html/marquee_generator.php
+2. https://www.w3schools.com/tags/att_input_type_date.asp
+3. https://www.w3schools.com/tags/att_input_type_date.asp
+4. https://way2tutorial.com/html/marquee_generator.php
+5. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 
 </details>
