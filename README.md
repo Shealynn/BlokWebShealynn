@@ -108,17 +108,6 @@ samen met je groepje opstellen
 ### Stand van zaken
 Mijn pagina's zagen er goed uit en ik moest vooral gewoon verder gaan met coderen. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
@@ -138,28 +127,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Screen reader
+Door de website gaan met spraak ging goed! de buttons en linkjes waren allemaal goed geplaatst en ik kon er makkelijk doorheen gaan. 
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Besturen
+De website besturen met shock vond ik best wel lastig, maar het was wel bestuurbaar met een toetsenbord. 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Kleur mode (zicht)
+Ik heb ervoor gekozen om dark mode niet te gebruiken, omdat de pagina zelf al in het zwart/wit is. Ik heb de pagina nu gemaakt in kleur, zodat het voor gebruikers ook wel prettig kan zijn om wat kleur te zien voor wanneer zij op de pagina ziten.
 
 </details>
 
@@ -173,26 +150,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De feedback ging goed. De studentenassistenten hebben mij goed geholpen. Ze hebben mij wel verteld om de meeste divjes weg te werken. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De achtergrond die ze op de originele pagina gebruiken, zal voor mij te moeilijjk om na te maken. 
+- Gewoon doorgaan met het coderen. 
 
 </details>
 
@@ -209,6 +175,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Ik vond zelf dat het best goed ging. Ik vind coderen zelf af en toe nog wel heel lastig, maar doordat ik helemaal zelf kon kiezen welke website ik ging maken, vond ik het ook wel leuk om te doen. 
 
 Ik vond het nog wel lastig om met JavaScript te werken, maar doordat ik iets meer ging oefenen is het wel gelukt om er mee te werken. 
+
+### Wat moet ik nog verder uitwerken? 
+1. Er mist nog een stuk JavaScript (Bijv. Dark/light mode)
+2. Er mogen niet meerdere ID's op de pagina
+3. De toegangkelijkheids test miste nog
+
+### Foto van de feedback
+<img src="images/feedback_1.png" width="375px" alt="feedback deel 1">
+
+
 
 ### Screenshot(s)
 
