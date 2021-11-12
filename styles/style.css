@@ -428,6 +428,7 @@ main>section {
 
 /* Vanaf hier begint de kleur-mode */
 
+/* https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */
 .kleur-mode {
   background-color: #f6f7f1;
 }
@@ -469,4 +470,7 @@ main>section {
   width: 50%;
   margin-top: -5px;
 }
-/* https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */
+
+.kleur-mode h6 {
+  color: #ffaa67;
+}
